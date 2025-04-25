@@ -22,7 +22,7 @@
 header {
     display: flex; 
     align-items: center;
-    background-color: #a37dd1;
+    background-color: #8366B4;
     padding: 10px;
   }
 
@@ -159,7 +159,7 @@ footer a {
     overflow: hidden;
     max-width: 900px;
     margin: 0 auto;
-    padding: 10px;
+    padding: 20px;
     gap: 10px;
 }
 
@@ -191,10 +191,9 @@ footer a {
     margin: 30px auto;
     padding: 20px;
     max-width: 900px;
-    width: 90%;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 10px;
 }
 
 .school-header {
@@ -322,11 +321,13 @@ footer a {
     background: white;
     padding: 20px;
     border-radius: 10px;
+    gap: 10px;
+    overflow: hidden;
     /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); */
 }
 
 .fun-section p {
-    text-align:center;
+    text-align: center;
 }
 
 .carousel {
@@ -433,8 +434,8 @@ footer a {
 }
 
 #contact-form button[type="submit"] {
-    background-color: #bc95eb;
-    color: white;
+    background-color: #a37dd1;
+    color: black;
     font-weight: bold;
     padding: 12px;
     border: none;
@@ -444,7 +445,7 @@ footer a {
 }
 
 #contact-form button[type="submit"]:hover {
-    background-color: #a37fe0;
+    background-color: #d6bff4;
 }
 
 .validation-message {
@@ -452,6 +453,13 @@ footer a {
     font-size: 0.9em;
     margin: -10px 0 5px 0;
 }
+
+/* @media (max-width: 1000px) {
+  #contact-page {
+    margin: 40px 20px;
+    padding: 20px;
+  }
+} */
 
 /* Dropdown Contact Info Section */
 
@@ -474,7 +482,7 @@ footer a {
 
 #dropdown-card {
     display: none;
-    background-color: #a37fe0;
+    background-color: #d6bff4;
     border-radius: 10px;
     padding: 15px;
     margin-top: 15px;
@@ -518,7 +526,7 @@ footer a {
     display: inline-block;
     padding: 10px 20px;
     background-color: #bc95eb;
-    color: white;
+    color: black;
     font-weight: bold;
     border-radius: 25px;
     text-decoration: none;
@@ -645,7 +653,7 @@ footer a {
     }
 }
 body.dark-mode {
-    background-color: #1e1b2f;
+    background-color: #453c77;
     color: #f2e8ff;
   }
   
@@ -656,12 +664,12 @@ body.dark-mode {
   body.dark-mode .resume-section,
   body.dark-mode #contact-page,
   body.dark-mode .awards-section {
-    background-color: #2c2548;
+    background-color: #453c77;
     color: #f2e8ff;
   }
   
   body.dark-mode header {
-    background-color: #2e1c4a;
+    background-color: #311e4f;
   }
   
   body.dark-mode footer {
@@ -701,7 +709,7 @@ body.dark-mode {
   }
   
   .toggle-theme {
-    position: absolute;
+    /* position: absolute; */
     top: 10px;
     right: 10px;
     font-size: 1.5rem;
@@ -730,6 +738,7 @@ body.dark-mode input,
 body.dark-mode textarea {
   color: #dcd6f7;
 }
+
 /* Fix dark mode label and placeholder contrast */
 body.dark-mode label,
 body.dark-mode #contact-form label {
@@ -745,9 +754,19 @@ body.dark-mode #contact-form textarea::placeholder {
 body.dark-mode .validation-message {
   color: #ff9999 !important;
 }
-body.dark-mode .about-card {
-    background-color: #78557c;
-    color: #f2e8ff;
+
+  body.dark-mode .about-card, 
+  body.dark-mode .school-card, 
+  body.dark-mode .experience-card, 
+  body.dark-mode .awards-section,
+  body.dark-mode .resume-section,
+  body.dark-mode .fun-section, 
+  body.dark-mode #contact-page, 
+  body.dark-mode #contact-page  {
+    background-color: #311e4f;
   }
 
+  body.dark-mode #dropdown-card p{
+    color: black;
+  }
   
