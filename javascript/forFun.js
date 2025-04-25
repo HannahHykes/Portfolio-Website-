@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelectorAll('.carousel img').forEach(img => {
         img.addEventListener('click', () => {
             lightboxImage.src = img.src;
+            lightboxImage.alt = img.alt; // <-- This line ensures accessibility
             lightbox.style.display = 'flex';
         });
     });

@@ -644,3 +644,110 @@ footer a {
         font-size: 1.1em;
     }
 }
+body.dark-mode {
+    background-color: #1e1b2f;
+    color: #f2e8ff;
+  }
+  
+  body.dark-mode main,
+  body.dark-mode .fun-section,
+  body.dark-mode .school-card,
+  body.dark-mode .experience-card,
+  body.dark-mode .resume-section,
+  body.dark-mode #contact-page,
+  body.dark-mode .awards-section {
+    background-color: #2c2548;
+    color: #f2e8ff;
+  }
+  
+  body.dark-mode header {
+    background-color: #2e1c4a;
+  }
+  
+  body.dark-mode footer {
+    background-color: #1a1a1a;
+    color: #f2e8ff;
+  }
+  
+  body.dark-mode a {
+    color: #e2d0ff;
+  }
+  
+  body.dark-mode .button a,
+  body.dark-mode #contact-info-toggle,
+  body.dark-mode .download-button,
+  body.dark-mode #contact-form button[type="submit"] {
+    background-color: #bc95eb;
+    color: #1e1b2f;
+  }
+  
+  body.dark-mode .button a:hover,
+  body.dark-mode #contact-info-toggle:hover,
+  body.dark-mode .download-button:hover,
+  body.dark-mode #contact-form button[type="submit"]:hover {
+    background-color: #a37dd1;
+  }
+  
+  body.dark-mode input,
+  body.dark-mode textarea {
+    background-color: #3c325a;
+    color: #f2e8ff;
+    border: 1px solid #bc95eb;
+  }
+  
+  body.dark-mode .lightbox-overlay,
+  body.dark-mode .resume-lightbox {
+    background-color: rgba(0, 0, 0, 0.95);
+  }
+  
+  .toggle-theme {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.5rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: #f2e8ff;
+  }
+  
+  .toggle-theme:focus {
+    outline: 2px solid #bc95eb;
+  }
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4,
+body.dark-mode h5,
+body.dark-mode h6 {
+  color: #f2e8ff;
+}
+
+body.dark-mode p,
+body.dark-mode li,
+body.dark-mode label,
+body.dark-mode input,
+body.dark-mode textarea {
+  color: #dcd6f7;
+}
+/* Fix dark mode label and placeholder contrast */
+body.dark-mode label,
+body.dark-mode #contact-form label {
+  color: #ffffff !important;
+}
+
+body.dark-mode #contact-form input::placeholder,
+body.dark-mode #contact-form textarea::placeholder {
+  color: #bfbcd9 !important;
+  opacity: 1 !important;
+}
+
+body.dark-mode .validation-message {
+  color: #ff9999 !important;
+}
+body.dark-mode .about-card {
+    background-color: #78557c;
+    color: #f2e8ff;
+  }
+
+  
